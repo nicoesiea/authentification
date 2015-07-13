@@ -1,4 +1,4 @@
-# authentification
+# Authentification
 Example source code to authentification
 
 Ce code permet de mettre rapidement en place un systeme d'authentification via :
@@ -8,9 +8,14 @@ Ce code permet de mettre rapidement en place un systeme d'authentification via :
 
 # Utilisation
 
-L'utilisateur se connecte via son email + un mot de passe
-La requête est validée en AJAX via authentification.php
-Cette page se charge de récupérer les informations (GET) afin de mettre à jour la table USER si l'identification est ok.
-Une fois l'identification terminée, on redirige l'utilisateur vers la page cible.
+L'utilisateur se connecte via son email + un mot de passe sur la page login.php
+(Cette page import le script authentification.js)
 
-Cette page cible va vérifier que l'utilisateur est bien authentifiée avant d'afficher le reste de la page
+La demande d'authentification est validée via une requête AJAX vers authentification.php
+
+La page authentification.php se charge de récupérer les informations (login/mdp) afin de mettre à jour la table des utilisateurs SI l'identification est ok.
+Une fois l'identification terminée, on redirige l'utilisateur vers la page cible.php.
+
+Cette page cible va vérifier que l'utilisateur est bien authentifiée avant d'afficher son contenu. Sinon elle affiche une page d'erreur !
+
+# 
