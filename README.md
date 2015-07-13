@@ -22,3 +22,8 @@ La page authentification.php se charge de récupérer les informations (login/md
 Une fois l'identification terminée, on redirige l'utilisateur vers la page cible.php.
 
 Cette page cible va vérifier que l'utilisateur est bien authentifiée avant d'afficher son contenu. Sinon elle affiche une page d'erreur !
+
+# JSON
+
+Php 4 (typiquement utilisé avec les page perso free.fr) ne gère pas nativement la convertion des Array php en JSON.
+Donc je passe par une librairie tierse afin de construire "manuellement" le resultat JSON. Je suis bien conscient que ce code peut être amélioré !
