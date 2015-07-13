@@ -18,4 +18,9 @@ Une fois l'identification terminée, on redirige l'utilisateur vers la page cibl
 
 Cette page cible va vérifier que l'utilisateur est bien authentifiée avant d'afficher son contenu. Sinon elle affiche une page d'erreur !
 
-# 
+# Getting Started
+
+Connecter vous à la base de donnée MySQL
+Jouer le script de création de la table TABLE_USER
+Modifier le login et mot de passe de connexion à la base de données dans les pages php et js
+Tester l'authentification via le user xxx/xxx
