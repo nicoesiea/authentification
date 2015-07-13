@@ -8,7 +8,7 @@ Exemple de code pour faire une authentification avec les technologies :
 
 Connecter vous à votre base de donnée MySQL
 Jouer le script de création de la table TABLE_USER : scriptCreationBDD.sql
-Dans les pages php et js, modifier le login et mot de passe de connexion à la base de données 
+Dans les pages authentification.php et cible.php, modifier le login et mot de passe de connexion à la base de données 
 Tester l'authentification via le user login=test@test.test et mot de passe=1b2o3njourCommentVasTu
 
 # Principe
