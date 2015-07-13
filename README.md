@@ -5,7 +5,7 @@ Ce code permet de mettre rapidement en place un systeme d'authentification via :
 - PHP
 - MySQL
 - JQuery
-- 
+
 # Utilisation
 
 L'utilisateur se connecte via son email + un mot de passe
