@@ -25,5 +25,5 @@ Cette page cible va vérifier que l'utilisateur est bien authentifiée avant d'a
 
 # JSON.php
 
-Php 4 (typiquement utilisé avec les page perso free.fr) ne gère pas nativement la convertion des Array php en JSON.
-Donc je passe par une librairie tierse afin de construire "manuellement" le resultat JSON. Je suis bien conscient que ce code peut être amélioré !
+Php 4 (typiquement utilisé avec les page perso free.fr) ne gère pas nativement la conversion des Array php en JSON.
+Donc je passe par une librairie tierse afin de construire "manuellement" le résultat JSON. Je suis bien conscient que ce code peut être amélioré !
