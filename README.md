@@ -24,11 +24,8 @@ L'utilisateur se connecte via son email + un mot de passe sur la page login.php
 La demande d'authentification est validée via une requête AJAX vers authentification.php
 
 La page authentification.php se charge de récupérer les informations (login/mdp) et :
-- SI l'identification est ok ALORS met à jour le token et le timestamp dans la table des utilisateurs
-- SINON la requête AJAX traite un cas de retour au status error.
-Une fois l'authentification terminée :
-- SI authentification ok ALORS on redirige l'utilisateur vers la page cible.php 
-- SINON on affiche une popup d'erreur.
+- SI l'identification est ok ALORS met à jour le token et le timestamp dans la table des utilisateurs ET on redirige l'utilisateur vers la page cible.php 
+- SINON la requête AJAX traite un cas de retour au status error : on affiche une popup d'erreur.
 
 La page cible va vérifier que l'utilisateur est bien authentifiée avant d'afficher son contenu : On regarde en base si l'id de l'utilisateur correspond bien au token renvoyé par authentification.php.
 - SI l'authentification est correcte ALORS on insère les valeurs (id et token) dans le DOM (le code HTML de la page) dans une balise div masquée (hidden) - ceci afin de les rendre disponible en JS pour les futurs besoins.
