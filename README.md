@@ -29,7 +29,7 @@ La page authentification.php se charge de récupérer les informations (login/md
 
 La page cible va vérifier que l'utilisateur est bien authentifiée avant d'afficher son contenu : On regarde en base si l'id de l'utilisateur correspond bien au token renvoyé par authentification.php.
 - SI l'authentification est correcte ALORS on insère les valeurs (id et token) dans le DOM (le code HTML de la page) dans une balise div masquée (hidden) - ceci afin de les rendre disponible en JS pour les futurs besoins.
-- SINON la page cible affiche une page d'erreur ou bien redirige automatiquement vers la page de login!
+- SINON la page cible affiche une page d'erreur ou bien redirige automatiquement vers la page de login! Cette vérification permet d'éviter que des personnes accèdent à une page sécurisée sans être, au préalable, authentifiée !
 
 # JSON.php
 
