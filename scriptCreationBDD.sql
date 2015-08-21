@@ -14,7 +14,7 @@ CREATE TABLE IF NOT EXISTS `TABLE_USER` (
   `timestampConnexion` timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP COMMENT 'Dernière connexion',
   `token` varchar(255) collate latin1_general_ci NOT NULL COMMENT 'token de connexion',
   PRIMARY KEY  (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci COMMENT='utilisateur de Dinner';
+) ENGINE=MyISAM DEFAULT CHARSET=latin1 COLLATE=latin1_general_ci COMMENT='utilisateurs';
 
 --
 -- Contenu de la table `TABLE_USER`
