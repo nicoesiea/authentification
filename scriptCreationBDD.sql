@@ -21,4 +21,4 @@ CREATE TABLE IF NOT EXISTS `TABLE_USER` (
 --
 
 INSERT INTO `TABLE_USER` (`id`, `dob`, `password`, `firstname`, `lastname`, `email`, `timestampConnexion`, `token`) VALUES
-('76654357', '1986-01-28', '1b2o3njourCommentVasTu?', 'Nicolas', 'DUMONT', 'test@test.test', '2015-07-12 19:50:30', '6c76a7036c1ac23b4e119fa6f1ee9825');
+('76654357', '1985-02-29', '1b2o3njourCommentVasTu?', 'Nicolas', 'DUMONT', 'test@test.test', '2015-07-12 19:50:30', '6c76a7036c1ac23b4e119fa6f1ee9825');

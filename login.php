@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<?php
-			include ("../menu.html");
+			include ("./menu.html");
 		?>
 		<div class="container theme-showcase" role="main">
 			<div class="jumbotron">
