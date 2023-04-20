@@ -1,3 +1,6 @@
+# ATTENTION CE PROJET EST OBSOLET
+**son utilisation risque d'exposer votre application à des failles de sécurité importantes**
+
 # Objectif
 
 Bien qu'aujourd'hui l'authentification par application soit devenue obsolète - remplacée par des services de connexion centralisés (Google, Facebook...) ou des annuaires distants (LDAP). Je crois qu'il est important de commencer par l'implémentation d'une authentification basique ! Ne serait-ce que pour avoir un exemple et une base de travail rapide.
